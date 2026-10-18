@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portofolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="font-zelda">
+    <header class="z-[60] sticky top-0">
+        <nav class="relative z-[60] flex items-center justify-between backdrop-filter backdrop-blur-md bg-opacity-40 px-[90px] h-[90px]">
+            <div class="flex flex-row items-center gap-[60px]">
+                <img class="h-14 w-auto" src="Navbar/navbar-logo.svg"
+                alt="home">
+                <ul class="flex flex-row gap-[64px] text-white text-[2rem]">
+                    <a class="hover:underline hover:text-[#F3B541]" href="#hero">
+                        Home
+                    </a>
+                    <a class="hover:underline hover:text-[#F3B541]" href="#aboutme">
+                        About Me
+                    </a>
+                    <a class="hover:underline hover:text-[#F3B541]" href="#myskills">
+                        My Skills
+                    </a>
+                    <a class="hover:underline hover:text-[#F3B541]" href="#experience">
+                        My Experience
+                    </a>
+                    
+                </ul>
+            </div>
+            <div class="flex flex-row items-center gap-3">
+                <div class="flex flex-row item center gap-[15px]">
+                    <a href="https://x.com/HMSI_ITS" class="transition duration-200 ease-in-out hover:grayscale hover:opacity-70" target="_blank">
+                        <img class="w-11" src="Navbar/x-logo.svg" alt="x">
+                    </a>
+                    <a href="https://tiktok.com/HMSI_ITS" class="transition duration-200 ease-in-out hover:grayscale hover:opacity-70" target="_blank">
+                        <img class="w-11" src="Navbar/tiktok-logo.svg" alt="tiktok">
+                    </a>
+                    <a href="https://instagram.com/HMSI_ITS" class="transition duration-200 ease-in-out hover:grayscale hover:opacity-70" target="_blank">
+                        <img class="w-11" src="Navbar/ig-logo.svg" alt="instagram">
+                    </a>
+                    <a href="https://youtube.com/HMSI_ITS" class="transition duration-200 ease-in-out hover:grayscale hover:opacity-70" target="_blank">
+                        <img class="w-11" src="Navbar/yt-logo.svg" alt="youtube">
+                    </a>
+                    
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <!--Section 1 - Hero -->
+        <section id="hero" class="bg-[red] text-center py-[100px]">
+            <h1 class="font-zelda text-center text-[128px]">My Portofolio</h1>
+            <p class="px-[100px] text-[32px]">Nayla Nuraini Putri</p>
+        </section>
+        <!--Section 2 - About Me -->   
+        <section id="aboutme"class=" text-center py-[100px]">
+            <h2 class="font-zelda text-center text-[80px]">About Me</h2>
+            <p>Hello! I'm an Information Systems student passionate about designing user-centered digital experiences and solving real-world problems through thoughtful design, business insights, and data-driven solutions.</p>
+        </section>
+        <!--Section 3 - My Skills -->
+        <section id="myskills" class="text-left w-[600px] mx-auto p-[60px]">
+            <h2 class="font-zelda text-center text-[80px]">My Skills</h2>
+            <div>
+            <h3 class="font-zelda text-[48px]">Aku tertarik belajar sains</h3>
+             <ul class="text-[32px] list-inside list-disc">
+                <li>Aku suka Informatika</li>
+                <li>Aku suka Sejarah</li>
+                <li>Aku suka Music</li>
+            </ul>
+            </div>
+        </section>
+        <!--Section 4 - My Experience -->
+        <section id="experience" class="py-[100px]">
+            <div class="flex flex-col gap-4 items-center">
+                        <h1 class="font-zelda text-[128px] text-white
+                        text-shadow-[0_5px_0_#7A3D21] text-center">
+                        MY EXPERIENCE
+                        </h1>
+                    <div class="flex flex-row gap-4">
+            <img class="w-[600px]" src="Image\Fotoku\foto1.png" alt="Deskripsi Foto 1">
+            <img class="w-[600px]" src="Image\Fotoku\foto2.png" alt="Deskripsi Foto 2">
+                </div>
+                <div class="flex flex-row gap-4">
+            <img class="w-[600px]" src="Image\Fotoku\foto3.png" alt="Deskripsi Foto 3">
+            <img class="w-[600px]" src="Image\Fotoku\foto4.png" alt="Deskripsi Foto 4">
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="w-full sm:h-[500px] md:h-[350px] lg:h-[600px] bg-[url('footer/bg-footer.png')] bg-cover bg-center px-4 py-8 lg:px-[90px] lg:py-[88px] lg:border-t-[20px] lg:border-t-[#7A3D21] flex justify-center items-center">
+        <div class="flex flex-col w-full h-[440px] md:h-full md:w-170 lg:h-full lg:w-[1000px] bg-[url('footer/frame-footer-mobile.png')] md:bg-[url('footer/frame-footer-desktop.png')] lg:bg-[url('footer/frame-footer-desktop.png')] bg-center bg-contain bg-no-repeat px-6 py-10 lg:px-[20px] items-center justify-center">
+            <div class="flex flex-col md:flex-row lg:flex-row items-center justify-center gap-2 lg:gap-6">
+                <div class="flex flex-col md:flex-row lg:flex-row items-center justify-center gap-3 lg:gap-[00px]">
+                    <a class="text-[#C07E4E] lg:text-[#C07E4E] hover:text-[#F9DCB4] text-[1.5rem] lg:text-[32px]" href="#hero">home</a>
+                    <a class="text-[#C07E4E] lg:text-[#C07E4E] hover:text-[#F9DCB4] text-[1.5rem] lg:text-[32px]" href="#aboutme">about me</a>
+                    <a class="text-[#C07E4E] lg:text-[#C07E4E] hover:text-[#F9DCB4] text-[1.5rem] lg:text-[32px]" href="#myskills">my skills</a>
+                    <a class="text-[#C07E4E] lg:text-[#C07E4E] hover:text-[#F9DCB4] text-[1.5rem] lg:text-[32px]" href="#myexperience">my experience</a>
+                </div>                
+            </div>
+            <p class="font-times font-bold text-[15px] lg:text-[20px] text-[#F9DCB4] mt-4">
+                &copy; SIMETRI HMSI ITS 2026
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
