@@ -12,3 +12,10 @@
 .font-times{
     font-family: 'Times New Roman', Times, serif;
 }
+
+.text-zelda-shadow {
+    color: #ffffff;
+    text-shadow: 
+        2px 2px 0px #7A3D21, 
+        4px 4px 0px #7A3D21;
+}
